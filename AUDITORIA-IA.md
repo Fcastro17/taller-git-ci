@@ -104,21 +104,21 @@ Completen esta sección después de revisar cada hallazgo. No cambien el informe
 ### Hallazgo 6
 
 - **Veredicto:** descartado
-- **Evidencia:** Razón: vender controla stock; calcular el total en dinero es una función nueva, no un defecto del alcance.
+- **Evidencia:** vender controla stock; calcular el total en dinero es una función nueva, no un defecto del alcance.
 - **Corrección:**
 - **Prueba de regresión:**
 
 ### Hallazgo 7
 
 - **Veredicto:** descartado
-- **Evidencia:**
+- **Evidencia:** la lectura ocurre una vez en cargarConfiguracion, no en la ruta de ventas. En este alcance no bloquea la operación.
 - **Corrección:**
 - **Prueba de regresión:**
 
 ### Hallazgo 8
 
-- **Veredicto:** confirmado / descartado
-- **Evidencia:**
+- **Veredicto:** descartado
+- **Evidencia:** es una preferencia de estilo; el ciclo funciona y no es un defecto.
 - **Corrección:**
 - **Prueba de regresión:**
 
