@@ -70,29 +70,29 @@ Completen esta sección después de revisar cada hallazgo. No cambien el informe
 
 - **Veredicto:** confirmado. línea 8.
 - **Evidencia:** línea 8.
-- **Corrección:**
-- **Prueba de regresión:**
+- **Corrección:** se cambiaron los parametros de la funcion
+- **Prueba de regresión:** no concatena el nombre en la consulta
 
 ### Hallazgo 2
 
 - **Veredicto:** confirmado.
 - **Evidencia:** línea 3.
-- **Corrección:**
-- **Prueba de regresión:**
+- **Corrección:** se cambio el token fijo por una variable de entorno (process.env.API_TOKEN)
+- **Prueba de regresión:** buscarProducto usa process.env.API_TOKEN
 
 ### Hallazgo 3
 
 - **Veredicto:** confirmado.
 - **Evidencia:** líneas 21 a 30.
-- **Corrección:**
-- **Prueba de regresión:**
+- **Corrección:** se añadio un if a la funcion que verifica que el numero no sea < 0
+- **Prueba de regresión:** rechaza una cantidad negativa
 
 ### Hallazgo 4
 
 - **Veredicto:** confirmado
 - **Evidencia:** líneas 33 a 36.
-- **Corrección:**
-- **Prueba de regresión:**
+- **Corrección:** Ahora la funcion detecta cuando el valor es 0 y retorna 0
+- **Prueba de regresión:** el promedio vacío es cero
 
 ### Hallazgo 5
 
@@ -105,22 +105,22 @@ Completen esta sección después de revisar cada hallazgo. No cambien el informe
 
 - **Veredicto:** descartado
 - **Evidencia:** vender controla stock; calcular el total en dinero es una función nueva, no un defecto del alcance.
-- **Corrección:**
-- **Prueba de regresión:**
+- **Corrección:** no aplica
+- **Prueba de regresión:** no aplica
 
 ### Hallazgo 7
 
 - **Veredicto:** descartado
 - **Evidencia:** la lectura ocurre una vez en cargarConfiguracion, no en la ruta de ventas. En este alcance no bloquea la operación.
-- **Corrección:**
-- **Prueba de regresión:**
+- **Corrección:** no aplica
+- **Prueba de regresión:** no aplica
 
 ### Hallazgo 8
 
 - **Veredicto:** descartado
 - **Evidencia:** es una preferencia de estilo; el ciclo funciona y no es un defecto.
-- **Corrección:**
-- **Prueba de regresión:**
+- **Corrección:** no aplica
+- **Prueba de regresión:** no aplica
 
 ## Declaración de uso de IA
 
