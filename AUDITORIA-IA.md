@@ -18,7 +18,7 @@ Este informe es una simulación. Úsalo como entrada de la práctica y verifica 
 - **Ubicación:** `src/inventario.js`, línea 3.
 - **Severidad:** alta.
 - **Descripción:** el token `API_TOKEN` está escrito en el código. Cualquiera con acceso al repositorio puede leerlo.
-- **Recomendación:** mover el token a una variable de entorno.
+- **Recomendación:** mover el token a una variable de entorno. 
 
 ## Hallazgo 3
 
@@ -68,49 +68,49 @@ Completen esta sección después de revisar cada hallazgo. No cambien el informe
 
 ### Hallazgo 1
 
-- **Veredicto:** confirmado / descartado
-- **Evidencia:**
+- **Veredicto:** confirmado. línea 8.
+- **Evidencia:** línea 8.
 - **Corrección:**
 - **Prueba de regresión:**
 
 ### Hallazgo 2
 
-- **Veredicto:** confirmado / descartado
-- **Evidencia:**
+- **Veredicto:** confirmado.
+- **Evidencia:** línea 3.
 - **Corrección:**
 - **Prueba de regresión:**
 
 ### Hallazgo 3
 
-- **Veredicto:** confirmado / descartado
-- **Evidencia:**
+- **Veredicto:** confirmado.
+- **Evidencia:** líneas 21 a 30.
 - **Corrección:**
 - **Prueba de regresión:**
 
 ### Hallazgo 4
 
-- **Veredicto:** confirmado / descartado
-- **Evidencia:**
+- **Veredicto:** confirmado
+- **Evidencia:** líneas 33 a 36.
 - **Corrección:**
 - **Prueba de regresión:**
 
 ### Hallazgo 5
 
-- **Veredicto:** confirmado / descartado
-- **Evidencia:**
+- **Veredicto:** confirmado
+- **Evidencia:** líneas 44 a 50.
 - **Corrección:**
 - **Prueba de regresión:**
 
 ### Hallazgo 6
 
-- **Veredicto:** confirmado / descartado
-- **Evidencia:**
+- **Veredicto:** descartado
+- **Evidencia:** Razón: vender controla stock; calcular el total en dinero es una función nueva, no un defecto del alcance.
 - **Corrección:**
 - **Prueba de regresión:**
 
 ### Hallazgo 7
 
-- **Veredicto:** confirmado / descartado
+- **Veredicto:** descartado
 - **Evidencia:**
 - **Corrección:**
 - **Prueba de regresión:**
