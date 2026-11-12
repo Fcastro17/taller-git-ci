@@ -1,6 +1,6 @@
 # TALLER DE GIT, INTEGRACIÓN CONTINUA Y AUDITORÍA ASISTIDA POR IA
 
-<img src="unefa.png" alt="UNEFA" width="150" align="left" />
+<img src="unefa.png" alt="UNEFA" width="110" align="left" />
 
 **Universidad Nacional Experimental Politécnica**\
 **de la Fuerza Armada Nacional Bolivariana - UNEFA**\
