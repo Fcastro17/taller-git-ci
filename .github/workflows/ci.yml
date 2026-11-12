@@ -13,4 +13,15 @@ jobs:
         with:
           bun-version: 1.4.4
       - name: Instalar dependencias
-        run: bun install
+        run: bun install --frozen-lockfile
+      - name: Ejecutar linter
+        run: bun run lint
+      - name: Ejecutar pruebas
+        run: bun test --coverage > cobertura.txt 2>&1
+      - name: Guardar evidencia
+        uses: actions/upload-artifact@v7
+        with:
+          name: evidencia-ci
+          path: |
+            AUDITORIA-IA.md
+            cobertura.txt
