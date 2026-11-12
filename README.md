@@ -8,7 +8,8 @@
 **Asignatura:** Implantación de Sistemas\
 **Docente:** Ing. Luis Fernando Reyes\
 **Ponderación:** 10%\
-**Modalidad:** `práctica guiada` Cada paso indica qué hacer, qué comando ejecutar, qué resultado esperar y qué registrar.
+**Modalidad:** `práctica guiada` Cada paso indica qué hacer,\
+qué comando ejecutar, qué resultado esperar y qué registrar.
 
 <br clear="all" />
 
