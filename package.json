@@ -1,0 +1,17 @@
+{
+  "name": "taller-git-ci",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Repositorio inicial del taller de Git, integración continua y auditoría asistida por IA",
+  "scripts": {
+    "lint": "eslint src test",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "eslint": "^10.14.0"
+  },
+  "engines": {
+    "bun": ">=1.4.0"
+  }
+}
